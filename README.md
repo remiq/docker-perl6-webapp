@@ -1,4 +1,4 @@
-# docker-dancer
+# docker-perl6-webapp
 
 Docker-compose setup for Perl6+Dancer webapp development.
 
@@ -47,3 +47,8 @@ DBIish requires libpq.so. It can be solved by installing libpq-dev package:
     $ apt-get update && apt-get install libpq-dev
     
 But the better way was to create docker image including libpq as seen in `web/Dockerfile`.
+
+## Conclusion
+
+Single request with one SELECT takes ~300ms on Intel Xeon CPU E3-1225 V2 @ 3.20GHz. Current Perl6 MoarVM build (2015.03)
+is not ready for production.
