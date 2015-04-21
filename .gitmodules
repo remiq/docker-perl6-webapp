@@ -1,0 +1,3 @@
+[submodule "web/src/vendors/DBIish"]
+	path = web/src/vendors/DBIish
+	url = git@github.com:perl6/DBIish.git

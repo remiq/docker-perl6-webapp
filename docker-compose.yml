@@ -1,7 +1,7 @@
 
 
 web:
-  image: rakudo-star:2015.03 # https://registry.hub.docker.com/_/rakudo-star/
+  build: web
   command: perl6 /app/web/app.pl
   volumes:
     - web/src:/app/web
